@@ -1,7 +1,3 @@
-import os
-os.environ["JAVA_HOME"] = r"C:\Program Files\Zulu\zulu-11"
-os.environ["PATH"] = os.environ["JAVA_HOME"] + r"\bin;" + os.environ["PATH"]
-
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import greatest, least
 
